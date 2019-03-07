@@ -6,7 +6,6 @@
 增量更新|原有app的基础上只更新发生变化的地方，其余保持原样
 升级更新|在当前的版本做了大的修改时，我们需要全部下载Apk进行升级
 ### Robust的实现
-CC是一套Android的组件化框架，由CC核心API类库和cc-register插件组成
 
 ### 流程：
 1. 集成 Robust，生成 apk。保存期间的混淆文件 mapping.txt，以及 Robust 生成记录文件 methodMap.robust
